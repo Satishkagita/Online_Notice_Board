@@ -2,17 +2,12 @@
 
 A web-based platform designed for efficient communication and information sharing within educational institutions and organizations. This project overcomes the limitations of traditional notice boards by offering a user-friendly and centralized interface to manage notices, announcements, and updates.
 
-👉🏻 Key Features:
-
-User Roles: Role-based access for administrators, faculty, and students.
-
-Notice Management: Create, edit, delete, and categorize notices for easy access and search.
-
-Email Notifications: Automated notifications for new or updated notices.
-
-User Authentication: Secure login for all users, ensuring privacy and control.
-
-Responsive Design: Accessible on various devices, including mobile and desktop.
+## Key Features:
+- User Roles: Role-based access for administrators, faculty, and students.
+- Notice Management: Create, edit, delete, and categorize notices for easy access and search.
+- Email Notifications: Automated notifications for new or updated notices.
+- User Authentication: Secure login for all users, ensuring privacy and control.
+- Responsive Design: Accessible on various devices, including mobile and desktop.
 
 
 
