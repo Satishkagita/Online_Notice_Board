@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('mylib1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+
+}
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+
+.login-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(70vh);
+    /* Adjust the height as needed */
+}
+
+.login-card {
+    display: flex;
+    width: 400px;
+    height: 450px;
+    /* Adjust the width as needed */
+    background-color: #ffffff6b;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+img {
+
+    width: 100%;
+    height: 500px;
+
+}
+
+.right-half {
+    flex: 1;
+    padding: 10px 40px 40px;
+
+}
+
+.right-half h2 {
+    color:rgb(61 109 209);
+}
+
+.login-card .form-group {
+    position: relative;
+    margin-bottom:20px;
+}
+
+.login-card input {
+    width: 90%;
+    padding: 3px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s, border-width 0.3s;
+    
+}
+
+.login-card input:focus {
+    border-color:rgb(61 109 209);; /* Change the border color to blue on focus */
+    border-width: 2px; 
+  /* Adjust border width if needed */
+}
+
+#password::placeholder {
+    color: #4b4747; /* Replace with your desired color code */
+}
+#username::placeholder {
+    color: #4b4747; /* Replace with your desired color code */
+}
+
+.login-card select,
+.login-card button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+.login-card button {
+    background-color:rgb(61 109 209);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.login-card button:hover {
+    background-color: rgb(61 109 209);
+}
+
+
+
+
+
+
+.login-card .form-group input {
+    padding-left: 30px; /* Ensure space for the icon */
+}
+
+
+h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(61 109 209);
+    outline: none;
+    text-align: center;
+}
+
+h1:hover {
+    font-variation-settings: "wght" 582;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 150%;
+    text-align: center;
+    color: MintCream;
+    letter-spacing: .5px;
+}
+.login-card .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.login-card .form-group i {
+    position: absolute;
+    top: 50%;
+    color: rgba(6, 6, 6, 0.5); 
+}
+
+.login-card .form-group i.fa-user {
+    left: 10px;
+    bottom:-15px; /* Adjust the position as needed */
+    transform: translateY(-50%);
+}
+
+.login-card .form-group i.fa-lock {
+    left: 10px; 
+    bottom:-15px;/* Adjust the position as needed */
+    transform: translateY(-50%);
+   
+}
+
+.login-card .form-group i.fa-eye,.login-card .form-group i.fa-eye-slash{
+    position: absolute;
+    right: 10px; /* Adjust the position as needed */
+    bottom:-15px;
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.5); 
+    cursor: pointer;/* Icon color */
+   
+    /* Ensure the icon is on top of the input field */
+}
+.login-card .form-group input[type="password"] + i {
+    right: 10px; /* Adjust the position as needed */
+    transform: translateY(-50%);
+}
+
+
+/* Add responsive styles for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+ 
+   
+
+    .login-container {
+        height: auto; /* Remove the fixed height for login-container */
+    }
+
+    .login-card {
+        width: 100%; /* Make the login card take the full width */
+        margin: 20px; /* Add some margin to separate it from the edges */
+    }
+
+    .right-half {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 50px; /* Reduce the font size for smaller screens */
+    }
+    .login-card select option {
+  
+        width:100px;/* Allow text to wrap for smaller screens */
+    }
+    /* Adjust other styles as needed for smaller screens */
+   
+   
+
+}
