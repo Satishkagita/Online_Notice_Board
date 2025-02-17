@@ -1,0 +1,166 @@
+.material-symbols-outlined{
+    color: white;
+    vertical-align: bottom;
+    padding-right: 6px;
+}
+/*nav-bar*/
+.nav-area li a{
+    padding:12px 0px 12px 0px;
+    /*border-bottom: 2px solid #4b92cc;*/
+    padding-left: 40px;
+}
+
+.nav-area .profile-area{
+    transition:all 0.5s ease;
+}
+.nav-area{
+    background-color: rgba(10, 251, 26, 0.9);
+    width:200px;
+    height:100%;
+    position:fixed;
+    padding:20px 0px;
+    top:0px;
+    left: 0px;
+}
+.profile-area{
+    margin:0px 7px 7px;
+
+}
+#img{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+}
+/*content*/
+.content{
+    margin-left: 300px ;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-area .profile-area{
+    transition:all 0.5s ease;
+}
+.nav-area{
+    background-color:#4886d2;
+    width:300px;
+    height:100%;
+    position:fixed;
+    padding:20px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-area.profile-area{
+    margin:0px 20px 10px;
+
+}
+.nav-area a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffff;
+    font-weight: 550;
+    display: block;
+}
+.nav-bar{
+    margin-top: 10px;
+}
+.nav-area li a:hover{
+    background: rgba(141, 185, 238, 0.9);
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+.active{
+    background: rgb(78 129 238);
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+@media (max-width: 768px) {
+    .material-symbols-outlined {
+        padding-right: 3px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Reduce font size for smaller screens if necessary */
+    }
+}
+@media (max-width: 768px) {
+    .nav-area li a {
+        padding: 8px 0; /* Adjust padding for smaller screens */
+        padding-left: 20px; /* Adjust left padding for smaller screens */
+        font-size: 12px; /* Reduce font size for smaller screens if necessary */
+    }
+}
+@media (max-width: 768px) {
+    .nav-area {
+        width: 100%; /* Adjust the width to take up the full width of the screen on smaller devices */
+        height: auto; /* Remove fixed height for smaller screens */
+        position: static; /* Remove fixed positioning for smaller screens */
+        padding: 10px 0; /* Adjust padding for smaller screens */
+    }
+}
+@media (max-width: 768px) {
+    .profile-area {
+        margin: 0px 2px 2px; /* Adjust margin for smaller screens */
+    }
+}
+@media (max-width: 768px) {
+    #img {
+        height: 70px; /* Adjust height for smaller screens */
+        width: 70px; /* Adjust width for smaller screens */
+    }
+}
+@media (max-width: 768px) {
+    .content {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+
+    * {
+        font-family: Arial, Helvetica, sans-serif; /* You can retain the font-family for smaller screens */
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width: 768px) {
+    .nav-area {
+        width: 100%; /* Adjust the width to take up the full width of the screen on smaller devices */
+        height: auto; /* Remove fixed height for smaller screens */
+        position: static; /* Remove fixed positioning for smaller screens */
+        padding: 10px 0; /* Adjust padding for smaller screens */
+        box-shadow: none; /* Remove box shadow on smaller screens */
+    }
+
+    .nav-area.profile-area {
+        margin: 0px 5px 2px; /* Adjust margin for the profile area on smaller screens */
+    }
+}
+@media (max-width: 768px) {
+    .nav-area a {
+        font-size: 12px; /* Reduce font size for smaller screens */
+    }
+
+    .nav-bar {
+        margin-top: 5px; /* Adjust margin-top for smaller screens */
+    }
+
+    .nav-area li a:hover {
+        background: rgba(141, 185, 238, 0.9);
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+    }
+
+    .active {
+        background: rgb(78 129 238);
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+    }
+}
+
+
+
+

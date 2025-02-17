@@ -1,0 +1,116 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2; /* Set your desired background color */
+}
+
+.content1 {
+    text-align: left;
+    width:500px;
+    background-color: #fff; /* Set your desired background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form fields */
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+
+.submit{
+    padding: 10px;
+    margin:10px;
+    border-radius: 5px;
+    background-color:#1b5dae;
+    color:white;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    float:right;
+    
+}
+
+@media (max-width: 768px) {
+    /* Add responsive styles for screens with a width of 768px or less */
+    body {
+        display: block;
+        font-size: 16px; /* Adjust font size or other styles as needed */
+    }
+}
+@media (max-width: 768px) {
+    .content1 {
+        width: 90%; /* Adjust the width for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+@media (max-width: 768px) {
+    .input {
+        width: 100%; /* Adjust the width for smaller screens if necessary */
+        padding: 8px; /* Adjust padding for smaller screens */
+        margin: 3px 0; /* Adjust margin for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens if necessary */
+    }
+}
+@media (max-width: 768px) {
+    .submit {
+        padding: 8px; /* Adjust padding for smaller screens */
+        margin: 20px; /* Adjust margin for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens if necessary */
+    }
+}
+.upload{
+    width: 125px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .upload img{
+    border-radius: 50%;
+    border: 8px solid #DCDCDC;
+  }
+  
+  .upload .round{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #00B4FF;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .upload .round input[type = "file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+  
+  input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+  }
+  
+
+
+
+
+/* Responsive */
+
+

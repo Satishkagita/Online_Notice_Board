@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en' class=''>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Search Bar Demo</title>
+    <style>
+
+    .form-area form {
+        background-color: #fafafc;
+        width: 380px;
+        height: 44px;
+        margin-left: auto;
+        margin-right: 400px;
+        margin-top: 1.5%;
+        border-radius: 50px;
+        border:1px solid black;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        margin-bottom: auto;
+      }
+
+      .form-area input {
+        all: unset;
+        font: 16px system-ui;
+        color: #080808;
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+        padding-left: 20px;
+      }
+
+      .form-area ::placeholder {
+        color: #4d4b4b;
+        opacity: 0.7; 
+        
+      }
+
+      .form-area svg {
+        color: #555353;
+        fill: currentColor;
+        width: 24px;
+        height: 24px;
+        
+      }
+
+      .form-area button {
+        all: unset;
+        cursor: pointer;
+        width: 44px;
+        height: 44px;
+        
+      }
+      @media (max-width: 768px) {
+  .form-area form {
+    width: 50%; /* Use full width of the container */
+    margin-left: auto; /* Adjust margins as needed */
+    margin-right: auto; /* Adjust margins as needed */
+  }
+}
+@media (max-width: 768px) {
+  .form-area input {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    padding-left: 10px; /* Adjust padding as needed */
+  }
+}
+@media (max-width: 768px) {
+  /* Adjust placeholder text styling for smaller screens */
+  .form-area ::placeholder {
+    font-size: 14px;
+  }
+
+  /* Adjust SVG icon styling for smaller screens */
+  .form-area svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Adjust button styling for smaller screens */
+  .form-area button {
+    width: 32px;
+    height: 32px;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div class="form-area">
+       <form role="search" id="form" action="hodmanagement.php" method="post">
+            <input type="search" id="query" name="search" placeholder="  Search Here..." required>
+            <button>
+              <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+            </button>
+          </form>   
+    </div>
+  </body>
+</html>

@@ -1,0 +1,321 @@
+#del_faculty{
+    padding: 5px 8px;
+    background-color: red;
+    float: none;
+    margin: 0px;
+}
+#del_hod{
+    padding: 5px 8px;
+    background-color: red;
+    float: none;
+    margin: 0px;
+}
+#del_notice{
+    padding: 5px 8px;
+    background-color: red;
+    float: left;
+    margin: 0px;
+}
+.delete{
+    color: white;
+    display: flex;
+    float: right;
+    margin-top: 1%;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.chechbox{
+    margin-left: 730px;
+}
+
+#back{
+    background-color: #4886d2;
+}
+button{
+    padding: 10px;
+    margin:10px;
+    border-radius: 5px;
+    background-color:#4886d2;
+    color:white;
+    border:none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    float:right;
+    cursor: pointer;
+    
+}
+
+.table {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    border:1 solid black;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 100%;
+    margin:0 auto;
+    white-space: nowrap;
+    background-color: white;
+    
+}
+
+.table td, .table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+
+.table thead th {
+    color: #ffffff;
+    background: #4886d2;
+}
+
+/*for modal*/
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 0;
+    width:700px;
+    height:auto; 
+}
+.close{
+    float:right;
+
+   
+}
+.form-heading{
+    display: block;
+    background-color:#4886d2;
+    color: #ffffff;
+    padding: 30px 5px 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.modal-content{
+    width:700px;
+    height:auto;
+    box-shadow: 2px 2px 2px #8080804a;
+   
+}
+label {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    margin: 10px;
+    font-size: 20px;
+}
+
+input ,select{
+  
+  border:1px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+  
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  box-shadow: inset 0px 2px 2px rgba( 0,0,0,0.1 );
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 10px;
+}
+.register{
+   
+    margin-right: 200px;
+    width: 100;
+}
+.card {
+     width: 800px; 
+    background-color: #4886d233;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    float: left;   
+}
+
+.inner_header {
+/* top: 50px; */
+text-align:left;
+font-weight: bold;
+}
+.under{
+/* top: 6px; */
+text-align:left;
+color:#ccc;
+font-weight: bold;
+
+
+}
+.desc{
+font-weight: bold;
+}
+
+.font{
+color:#000000;
+font-family: 'Times New Roman', Times, serif;
+font-size: bold;
+text-align:center;
+}
+.profilecard {
+    width: 800px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 20px;
+        float: left;
+        top:70px;
+        bottom: 70px;
+}
+
+
+
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .table {
+        display: block;
+        width: 100%;
+    }
+    .tablewrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .table thead, .table tbody ,.table thead th {
+        display: block;
+    }
+    .table thead th:last-child{
+        border-bottom: none;
+    }
+    .table thead {
+        float: left;
+    }
+    .table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .table td, .table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .table tbody tr {
+        display: table-cell;
+    }
+   .table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        float: none;
+        margin: 20px auto; /* Center the card on smaller screens */
+        content: "Scroll vertically >";
+    }
+    .chechbox{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .inner_header {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+
+    .under {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .desc {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .font {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+@media (max-width: 768px) {
+    .profilecard {
+        width: 100%;
+        float: none;
+        margin: 20px auto; /* Center the card on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .profilecard {
+        padding: 10px; /* Reduce padding for smaller screens */
+        top: 30px; /* Adjust top spacing for smaller screens */
+        bottom: 30px; /* Adjust bottom spacing for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjust modal width and close button for smaller screens */
+    .modal {
+      width: 100%;
+      left: 0;
+    }
+    
+  
+    /* Adjust form heading for smaller screens */
+    .form-heading {
+      font-size: 20px;
+      padding: 20px 5px 5px;
+      margin-bottom: 20px;
+    }
+  
+    /* Adjust modal content for smaller screens */
+    .modal-content {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Adjust labels for smaller screens */
+    label {
+      width: 100%;
+      text-align: left;
+      font-size: 16px;
+      margin: 5px;
+    }
+  
+    /* Adjust input and select elements for smaller screens */
+    input, select {
+      font-size: 14px;
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+  }
