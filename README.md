@@ -2,7 +2,7 @@
 
 A web-based platform designed for efficient communication and information sharing within educational institutions and organizations. This project overcomes the limitations of traditional notice boards by offering a user-friendly and centralized interface to manage notices, announcements, and updates.
 
-Key Features:
+👉🏻 Key Features:
 
 User Roles: Role-based access for administrators, faculty, and students.
 
@@ -17,7 +17,7 @@ Responsive Design: Accessible on various devices, including mobile and desktop.
 
 
 
-Tech Stack:
+👉🏻 Tech Stack:
 
 Frontend: HTML, CSS, JavaScript
 
@@ -30,13 +30,13 @@ Development Tools: XAMPP, Notepad/VS Code
 
 
 
-Methodology:
+👉🏻 Methodology:
 
 Developed using Agile methodology, which ensures iterative development and continuous improvements based on user feedback.
 
 
 
-Performance:
+👉🏻 Performance:
 
 Quick response time with an average of 1.5 seconds.
 
@@ -45,7 +45,7 @@ Seamless user interactions with minimal delays, even during peak usage.
 
 
 
-Future Enhancements:
+👉🏻 Future Enhancements:
 
 Alumni and student panels for more community engagement.
 
@@ -53,6 +53,6 @@ Integration with social media for broader reach and visibility.
 
 
 
-Conclusion:
+👉🏻 Conclusion:
 
 The Online Notice Board simplifies communication and promotes an efficient way to share information across an organization. It’s designed to be scalable, reliable, and adaptable to future needs.
